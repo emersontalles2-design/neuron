@@ -40,6 +40,10 @@
     sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   max-width: 100%;
   width: 100%;
@@ -534,4 +538,114 @@ gap: var(--size-sm)
   gap: var(--size-md);
   opacity: 80%;
 
+}
+
+/* Hero_Services */
+
+.hero-small {
+  max-width: var(--size-canvas);
+  margin: 0 auto;
+  padding: 0 var(--size-xs);
+}
+
+.hero-small__background {
+  &.hero-small__background--services {
+  background-color: var(--color-dark);
+  padding: var(--size-md);
+  color: var(--color-light);
+  min-height: 30vh;
+  border-radius: var(--radius-small);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  background:
+    linear-gradient(
+      90deg,
+      rgba(31, 31, 31, 0.2) 0%,
+      rgba(31, 31, 31, 0.2) 100%
+    ),
+    url("../media/Services-banner.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  &.hero-small__background--about {
+  background-color: var(--color-dark);
+  padding: var(--size-md);
+  color: var(--color-light);
+  min-height: 30vh;
+  border-radius: var(--radius-small);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  background:
+    linear-gradient(
+      90deg,
+      rgba(31, 31, 31, 0.2) 0%,
+      rgba(31, 31, 31, 0.2) 100%
+    ),
+    url("../media/About-banner.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  &.hero-small__background--news {
+  background-color: var(--color-dark);
+  padding: var(--size-md);
+  color: var(--color-light);
+  min-height: 30vh;
+  border-radius: var(--radius-small);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  background:
+    linear-gradient(
+      90deg,
+      rgba(31, 31, 31, 0.2) 0%,
+      rgba(31, 31, 31, 0.2) 100%
+    ),
+    url("../media/News-banner.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  &.hero-small__background--contact {
+  background-color: var(--color-dark);
+  padding: var(--size-md);
+  color: var(--color-light);
+  min-height: 30vh;
+  border-radius: var(--radius-small);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  background:
+    linear-gradient(
+      90deg,
+      rgba(31, 31, 31, 0.2) 0%,
+      rgba(31, 31, 31, 0.2) 100%
+    ),
+    url("../media/News-banner.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+}
+
+.hero-small__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--size-sm);
+  width: 100%;
 }
