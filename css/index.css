@@ -635,7 +635,7 @@ gap: var(--size-sm)
       rgba(31, 31, 31, 0.2) 0%,
       rgba(31, 31, 31, 0.2) 100%
     ),
-    url("../media/News-banner.webp");
+    url("../media/Contact-banner.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -648,4 +648,14 @@ gap: var(--size-sm)
   align-items: center;
   gap: var(--size-sm);
   width: 100%;
+}
+
+.features-contact__block {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--size-sm);
+}
+
+.features__contact {
+  background-color: var(--color-light);
 }
